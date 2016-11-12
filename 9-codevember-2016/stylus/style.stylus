@@ -1,0 +1,27 @@
+html, body
+  height 100%
+  width 100%
+  
+body
+  background-color #F5F5F5
+  position relative
+  
+canvas
+  display block
+  margin 0
+  
+// Link
+.link
+  color #555
+  bottom 12px
+  font-family Helvetica, Arial, sans-serif
+  font-size 10px
+  position fixed
+  right 12px
+
+  a
+    color: #555
+
+  .heart
+    font-family none
+    color #E1264C
