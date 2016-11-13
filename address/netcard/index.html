@@ -51,13 +51,13 @@ if (RTCPeerConnection) (function () {
     
     function grepSDP(sdp) {
         var hosts = [];
-        sdp.split('\r\n').forEach(function (line) { // c.f. http://tools.ietf.org/html/rfc4566#page-39
-            if (~line.indexOf("a=candidate")) {     // http://tools.ietf.org/html/rfc4566#section-5.13
-                var parts = line.split(' '),        // http://tools.ietf.org/html/rfc5245#section-15.1
+        sdp.split('\r\n').forEach(function (line) { // c.f. https://tools.ietf.org/html/rfc4566#page-39
+            if (~line.indexOf("a=candidate")) {     // https://tools.ietf.org/html/rfc4566#section-5.13
+                var parts = line.split(' '),        // https://tools.ietf.org/html/rfc5245#section-15.1
                     addr = parts[4],
                     type = parts[7];
                 if (type === 'host') updateDisplay(addr);
-            } else if (~line.indexOf("c=")) {       // http://tools.ietf.org/html/rfc4566#section-5.7
+            } else if (~line.indexOf("c=")) {       // https://tools.ietf.org/html/rfc4566#section-5.7
                 var parts = line.split(' '),
                     addr = parts[2];
                 updateDisplay(addr);
