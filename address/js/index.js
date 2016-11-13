@@ -45,7 +45,7 @@ function printAddress(latitude, longitude, isMaxMind) {
  
   // if we used MaxMind for location, add attribution link
   if(isMaxMind) {
-    $('body').append('<p><a href="http://www.maxmind.com" target="_blank">IP to Location Service Provided by MaxMind</a></p>');
+    $('body').append('<p><a href="https://www.maxmind.com" target="_blank">IP to Location Service Provided by MaxMind</a></p>');
   }
 }
  
@@ -135,7 +135,7 @@ function jsonFlickrApi(data){
     //var randomPhotoId = parseInt(data.photos.total);
     var photo = data.photos.photo[Math.floor(Math.random()*parseInt(data.photos.photo.length))];
     document.querySelector("body").style.backgroundImage = "url('" + photo.url_l + "')";
-    document.querySelector("#image-source").setAttribute("href", "http://www.flickr.com/photos/" + photo.owner + "/" + photo.id);
+    document.querySelector("#image-source").setAttribute("href", "https://www.flickr.com/photos/" + photo.owner + "/" + photo.id);
   }
   else{
     document.querySelector("body").style.backgroundImage = "url('https://fourtonfish.com/tutorials/weather-web-app/images/default.jpg')";
