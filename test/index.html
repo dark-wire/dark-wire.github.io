@@ -7,13 +7,28 @@
 
 
   
-  <script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
 $(document).ready(function(){
-    $("#bu2").click(function(){
-        $("div").remove(".spokenResponce");
+    $("button").click(function(){
+        $("p").remove(".test");
     });
 });
 </script>
+<style>
+.test {
+    color: red;
+    font-size: 20px;
+}
+</style>
+
+
+
+<p>This is a paragraph.</p>
+<p class="test">This is another paragraph.</p>
+<p class="test">This is another paragraph.</p>
+
+<button>Remove all p elements with class="test"</button>
   
   
   
