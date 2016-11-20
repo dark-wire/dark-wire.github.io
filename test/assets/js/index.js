@@ -125,5 +125,10 @@ function respond(val) {
     msg.lang = "en-US";
     window.speechSynthesis.speak(msg);
   }
+      
+  $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
+}
+
+
   $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
 }
