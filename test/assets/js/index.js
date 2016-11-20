@@ -131,5 +131,5 @@ function respond(val) {
 
 
 $(document).ready (function r() {
-    document.getElementById("demo").innerHTML = "";
-})
+    document.getElementById("demo").innerHTML = ""
+});
