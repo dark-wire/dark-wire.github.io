@@ -9,14 +9,18 @@
   <body><div class="container"><div class="header"></div><input id="speech" placeholder="- вопрос  " type="text" onkeypress="document.getElementById('spokenResponse').style.opacity = '1'"><button id="rec" class="btn"><i class="fa fa-microphone"></i></button>
 
 
-
-  
-
-  
-  
-  <div id="spokenResponse" class="spoken-response">
+<script>function r() {
+    document.getElementById("a").innerHTML = "<div id="spokenResponse" class="spoken-response">
     
-<div id="demo" class="spoken-response__text"></div>
+    <div class="spoken-response__text"></div>";
+}</script>
+  
+
+  
+  
+  <div id="a"><div id="spokenResponse" class="spoken-response">
+    
+    <div id="demo" class="spoken-response__text"></div></div>
     
     
     
