@@ -130,6 +130,6 @@ function respond(val) {
 
 
 
-$("#bu2") function r() {
+$(document).ready (function r() {
     document.getElementById("demo").innerHTML = "";
-}
+})
