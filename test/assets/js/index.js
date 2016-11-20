@@ -126,5 +126,7 @@ function respond(val) {
     window.speechSynthesis.speak(msg);
   }
   $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
-  $("#spokenResponse").style('opacity:1;');
+}
+function r() {
+    document.getElementById("demo").innerHTML = "<i class="fa fa-times" aria-hidden="true"></i>";
 }
