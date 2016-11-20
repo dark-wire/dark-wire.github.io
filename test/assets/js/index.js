@@ -127,6 +127,3 @@ function respond(val) {
   }
   $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
 }
-function r() {
-    document.getElementById("demo").innerHTML = "<i class="fa fa-times" aria-hidden="true"></i>";
-}
