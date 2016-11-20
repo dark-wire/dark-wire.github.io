@@ -13,7 +13,7 @@ a {
 
 #container {
     width: 740px;
-    background: #fff;
+    background: transparent;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@ a {
 
 header {
     padding: 30px 20px;
-    background: #f4f4f4;
+    background: transparent;
 }
 
 header h1 {
@@ -41,7 +41,7 @@ section {
 
 footer {
     padding: 20px;
-    background: #f4f4f4;
+    background: transparent;
     text-align: center;
 }
 
