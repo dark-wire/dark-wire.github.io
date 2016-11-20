@@ -127,3 +127,9 @@ function respond(val) {
   }
   $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
 }
+
+
+
+$("#bu2") function r() {
+    document.getElementById("demo").innerHTML = "";
+}
