@@ -126,5 +126,5 @@ function respond(val) {
     window.speechSynthesis.speak(msg);
   }
   $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
-  $("#spokenResponse").addstyle('opacity:1;');
+  $("#spokenResponse").style('opacity:1;');
 }
